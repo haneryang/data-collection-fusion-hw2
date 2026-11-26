@@ -1,0 +1,19 @@
+作业③ F12 调试过程 GIF 录制说明
+====================================
+
+按作业要求，需将浏览器中 F12 调试分析接口的过程录制为 GIF，
+并命名为 F12抓包分析.gif，放在本目录（与博客引用路径一致）。
+
+录制步骤：
+1. 用 Chrome / Edge 打开榜单页面：
+   https://www.shanghairanking.cn/rankings/bcur/2021
+2. 按 F12 打开开发者工具，切换到 Network（网络）面板，
+   过滤条件选择 Fetch/XHR。
+3. 刷新页面，在请求列表中找到 bcur 排名数据请求。
+4. 点开该请求，依次展示 Headers（请求地址、参数）与
+   Response/Preview（返回的 JSON 数组及字段）。
+5. 使用录屏工具（如 GifCam、LICEcap、ScreenToGif）将上述
+   操作过程录制为 GIF，保存为：F12抓包分析.gif
+
+博客中对应引用：
+![F12 调试过程录屏](作业3/images/F12抓包分析.gif)
